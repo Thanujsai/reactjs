@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Hello/>
-      <Message/>
+      <Message messageCode="10" messageContent="This is a message from props"/>
       <Profile name="Thanuj" lastName="sai">{/*this value(Thanuj) gets passed as props*/}
       <p>This is a profile of a person</p>
       </Profile>
