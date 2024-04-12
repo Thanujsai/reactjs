@@ -4,9 +4,12 @@ function Profile(props){
     console.log(props.name)
     //we cannot change the value of props.name since it's immutable => problem
     //props.name = "hey";//problem: cannot assign to read only properties, props are immutable, therefore it's not dynamic => we use state
+
+    //destructuring props
+    const {name, lastName} = props;//destructuring
     console.log('Name :' + props.name+' '+props.lastName)
     return (
-    <h1>Name: {props.name} {props.lastName} {props.children}</h1>//can pass dynamic data now
+    <h1>Name: {name} {lastName} {props.children}</h1>//can pass dynamic data now
     )
 }
 
