@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <Profile name="thanuj" lastName="sai"></Profile>
       <Resume name="thanuj"></Resume>
+      <Counter/>
       <FunctionEvent/>
       <ClassEvent/>
       {/* <Hello/> */}
