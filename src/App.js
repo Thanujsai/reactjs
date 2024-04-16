@@ -9,16 +9,19 @@ import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent'
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
+import Hi from './components/Hi';
 
 function App() {
   return (
     <div className="App">
-      <Profile name="thanuj" lastName="sai"></Profile>
+      {/* <Profile name="thanuj" lastName="sai"></Profile>
       <Resume name="thanuj"></Resume>
       <Counter/>
       <FunctionEvent/>
-      <ClassEvent/>
-      {/* <Hello/> */}
+      <ClassEvent/> */}
+      <Hi/>
+      {/* <Greet />
+      <Welcome /> */}
       {/* <Counter/> */}
       {}
       {/*
