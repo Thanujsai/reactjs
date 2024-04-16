@@ -7,7 +7,7 @@ const name = "Thanuj";
 const displayMessage = () => {
     return "message";
 }
-const Hello = () => {//functional component
+const Hello = () => {//functional component, accepts props returns jsx
     return <>
         <h1>Hello {name}!</h1>
         <h2>Total is {10+10}</h2>

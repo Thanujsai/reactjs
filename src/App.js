@@ -3,11 +3,15 @@ import './App.css';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Profile from './components/Profile';
+import Greet from './components/Greet';
+import Welcome from './components/Welcome';
 
 function App() {
   return (
     <div className="App">
       <Hello/>
+      <Greet/>
+      <Welcome />
       <Message/>
       <Profile name="Thanuj" lastName="sai">{/*this value(Thanuj) gets passed as props*/}
       <p>This is a profile of a person</p>
