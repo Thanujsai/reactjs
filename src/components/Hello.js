@@ -15,4 +15,4 @@ const Hello = () => {//functional component, accepts props returns jsx
     </>//this is jsx, curly braces to use variables
 }
 
-export default Hello;//default means we can import this component and gve any name
+export default Hello;//default means we can import this component and give any name
