@@ -18,6 +18,14 @@ function App() {
       <Counter/>
       <FunctionEvent/>
       <ClassEvent/>
+      <Greet name="thanuj" heroName="ironman">
+        <p>This is children props</p>{/*this can be rendered as props.children*/}
+      </Greet>
+      <Greet name="vamshi" heroName="flash"/>
+      <Greet name="usha" heroName="superman"/>
+      <Welcome name="thanuj" heroName="ironman"/>
+      <Welcome name="vamshi" heroName="flash"/>
+      <Welcome name="usha" heroName="superman"/>
       {/* <Hello/> */}
       {/* <Counter/> */}
       {}
