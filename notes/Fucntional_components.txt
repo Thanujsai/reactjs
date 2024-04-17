@@ -1,0 +1,1 @@
+functional components receive props(properties) and return html
