@@ -9,24 +9,30 @@ import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent'
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
+import FunctionClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
     <div className="App">
+      {/* <FunctionClick />
+      <ClassClick /> */}
+      <EventBind />
       <Profile name="thanuj" lastName="sai"></Profile>{/*this value(Thanuj) gets passed as props*/}
-      <Resume name="thanuj"></Resume>
+      {/* <Resume name="thanuj"></Resume>
       <Counter/>
       <FunctionEvent/>
-      <ClassEvent/>
+      <ClassEvent/> */}
       <Greet name="thanuj" heroName="ironman">{/* properties can be sent/passed to components, they are called props}
         <p>This is children props</p>{/*this can be rendered as props.children*/}
       </Greet>
-      <Greet name="vamshi" heroName="flash"/>
+      {/* <Greet name="vamshi" heroName="flash"/>
       <Greet name="usha" heroName="superman"/>
       <Welcome name="thanuj" heroName="ironman"/>
       <Welcome name="vamshi" heroName="flash"/>
       <Welcome name="usha" heroName="superman"/>
-      <Message messageCode="10" messageContent="This is a message from props"/>
+      <Message messageCode="10" messageContent="This is a message from props"/> */}
       {/* <Hello/> */}
       {/* <Counter/> */}
     </div>
