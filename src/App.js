@@ -13,12 +13,12 @@ import Welcome from './components/Welcome';
 function App() {
   return (
     <div className="App">
-      <Profile name="thanuj" lastName="sai"></Profile>
+      <Profile name="thanuj" lastName="sai"></Profile>{/*this value(Thanuj) gets passed as props*/}
       <Resume name="thanuj"></Resume>
       <Counter/>
       <FunctionEvent/>
       <ClassEvent/>
-      <Greet name="thanuj" heroName="ironman">
+      <Greet name="thanuj" heroName="ironman">{/* properties can be sent/passed to components, they are called props}
         <p>This is children props</p>{/*this can be rendered as props.children*/}
       </Greet>
       <Greet name="vamshi" heroName="flash"/>
@@ -26,21 +26,9 @@ function App() {
       <Welcome name="thanuj" heroName="ironman"/>
       <Welcome name="vamshi" heroName="flash"/>
       <Welcome name="usha" heroName="superman"/>
+      <Message messageCode="10" messageContent="This is a message from props"/>
       {/* <Hello/> */}
       {/* <Counter/> */}
-      {}
-      {/*
-      <Greet/>
-      <Welcome />
-      <Message messageCode="10" messageContent="This is a message from props"/>
-      <Profile name="Thanuj" lastName="sai">{/*this value(Thanuj) gets passed as props}
-      <p>This is a profile of a person</p>
-      </Profile>
-      <Profile name="Vamshi" lastName="sai"/>{/*this value(Thanuj) gets passed as props
-      <Profile name="Usha" lastName="chutki"/>{/*this value(Thanuj) gets passed as props}
-      <Profile name="Venkateshwarlu"/>{/*this value(Thanuj) gets passed as props}
-      {/* properties can be sent/passed to components, they are called props}
-  */}
     </div>
   );
 }
