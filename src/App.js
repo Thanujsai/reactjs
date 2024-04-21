@@ -9,24 +9,26 @@ import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent'
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      <Profile name="thanuj" lastName="sai"></Profile>{/*this value(Thanuj) gets passed as props*/}
-      <Resume name="thanuj"></Resume>
+      <ParentComponent />
+      {/*<Profile name="thanuj" lastName="sai"></Profile>*/}{/*this value(Thanuj) gets passed as props*/}
+      {/* <Resume name="thanuj"></Resume>
       <Counter/>
       <FunctionEvent/>
-      <ClassEvent/>
-      <Greet name="thanuj" heroName="ironman">{/* properties can be sent/passed to components, they are called props}
-        <p>This is children props</p>{/*this can be rendered as props.children*/}
-      </Greet>
+      <ClassEvent/> */}
+      {/* <Greet name="thanuj" heroName="ironman">{/* properties can be sent/passed to components, they are called props} */}
+        {/*<p>This is children props</p>{/*this can be rendered as props.children*/}
+      {/* </Greet>
       <Greet name="vamshi" heroName="flash"/>
       <Greet name="usha" heroName="superman"/>
       <Welcome name="thanuj" heroName="ironman"/>
       <Welcome name="vamshi" heroName="flash"/>
       <Welcome name="usha" heroName="superman"/>
-      <Message messageCode="10" messageContent="This is a message from props"/>
+      <Message messageCode="10" messageContent="This is a message from props"/> */}
       {/* <Hello/> */}
       {/* <Counter/> */}
     </div>
