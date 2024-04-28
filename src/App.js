@@ -10,11 +10,15 @@ import ClassEvent from './components/ClassEvent'
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <NameList />
+      {/* <UserGreeting/> */}
+      {/* <ParentComponent /> */}
       {/*<Profile name="thanuj" lastName="sai"></Profile>*/}{/*this value(Thanuj) gets passed as props*/}
       {/* <Resume name="thanuj"></Resume>
       <Counter/>
